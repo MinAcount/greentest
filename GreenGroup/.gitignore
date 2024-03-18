@@ -20,6 +20,9 @@ local.properties
 .loadpath
 .recommenders
 
+# ignore properties file
+db.properties
+
 # External tool builders
 .externalToolBuilders/
 
@@ -119,6 +122,3 @@ buildNumber.properties
 .classpath
 
 # End of https://www.toptal.com/developers/gitignore/api/eclipse,maven,dbeaver,java
-
-# Exclude specific db.properties file
-/GreenGroup/src/main/resources/properties/db.properties
