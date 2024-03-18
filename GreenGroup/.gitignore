@@ -1,9 +1,11 @@
-# Created by https://www.toptal.com/developers/gitignore/api/eclipse,maven,dbeaver,java
-# Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,maven,dbeaver,java
-
 ### DBeaver ###
 # ide config file
 .dbeaver-data-sources*.xml
+.dbeaver/
+credentials-config.json
+data-sources.json
+project-metadata.json
+project-settings.json
 
 ### Eclipse ###
 .metadata
@@ -84,7 +86,7 @@ local.properties
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Filhttps://github.com/MinAcount/greentest/tree/main/GreenGroupes #
 *.jar
 *.war
 *.nar
@@ -117,3 +119,6 @@ buildNumber.properties
 .classpath
 
 # End of https://www.toptal.com/developers/gitignore/api/eclipse,maven,dbeaver,java
+
+# Exclude specific db.properties file
+/GreenGroup/src/main/resources/properties/db.properties
