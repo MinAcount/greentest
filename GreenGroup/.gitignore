@@ -86,7 +86,7 @@ local.properties
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Filhttps://github.com/MinAcount/greentest/tree/main/GreenGroupes #
 *.jar
 *.war
 *.nar
@@ -121,4 +121,4 @@ buildNumber.properties
 # End of https://www.toptal.com/developers/gitignore/api/eclipse,maven,dbeaver,java
 
 # Exclude specific db.properties file
-/greentest/src/main/resources/properties/db.properties
+/GreenGroup/src/main/resources/properties/db.properties
